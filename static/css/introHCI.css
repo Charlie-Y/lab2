@@ -12,18 +12,75 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     /*border: 1px dotted gray;
+     padding: 20px;*/
+     font-family: 'Vollkorn', serif;
+     padding-bottom: 60px;
 }
+
+.category-header{
+     text-align: center;
+     font-size: 3em;
+     color:#858992;
+     font-family: 'Vollkorn', serif;
+}
+
+.project{
+     background: #d9d9f3;
+     border-radius: 5px;
+}
+
+.project .project-link{
+     padding-top: 30px;
+}
+
+a:hover{
+     text-decoration: none
+}
+
+.project .project-link:hover{
+     background: #9292A1;
+     border-color:#9292A1;
+}
+
+.project .project-link:hover .project-title{
+     color: white;
+     font-weight: 400;
+}
+
+
+.project-link{
+}
+
+.project-img{
+     border-radius: 10px;
+     max-height: 200px;
+}
+
+.project-title{
+     padding-top: 15px;
+     font-size: 2.3em;
+     text-align: center;
+     color: #47445c;
+
+}
+
+.project .project-title:hover{
+     text-decoration: none;
+}
+
 
 .jumbotron {
 	position: relative;
 	background: none;
+     /*font-family: 'Open Sans', sans-serif;*/
+     /*font-family: 'Vollkorn', serif;*/
+
 }
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     /*background: url("http://lorempixel.com/1140/283");*/
      opacity: 0.2;
      top: 0;
      left: 0;
